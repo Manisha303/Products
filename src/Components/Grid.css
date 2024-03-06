@@ -1,0 +1,16 @@
+/* Update your existing CSS or create a new file for grid.css */
+
+.App {
+    display: grid;
+    grid-template-columns: 200px 1fr; /* Sidebar width and Content takes the remaining space */
+    gap: 20px; /* Adjust the gap between columns as needed */
+  }
+  
+  .Sidebar {
+    background-color: #f0f0f0; /* Add a background color or any other styling */
+  }
+  
+  .Content {
+    padding-left: 23px; /* Add padding or other styling as needed */
+  }
+  

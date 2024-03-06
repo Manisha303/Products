@@ -1,0 +1,114 @@
+/* Sidebar.css */
+
+.sidebar {
+    padding: 20px;
+    background-color: #e3e8ee;
+    color: #1d1e1f;
+    width: 200px;
+    height:573px;
+    border-radius: 10px;
+  }
+  
+  .top-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+  }
+  
+  .info {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+  }
+  
+  .company-name {
+    margin-right: 55px;
+    font-size: 12px;
+  }
+  
+  .profile-pic {
+    width: 35px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .teams {
+    margin-bottom: 20px;
+  }
+  
+  .team, .create-team {
+    margin-bottom: 10px;
+  }
+  
+  .create-team {
+    background-color: #3498db;
+    color: #ecf0f1;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    padding-right: 75px;
+  }
+  
+  .folders {
+    margin-bottom: 20px;
+    padding-top: 10px;
+  }
+
+  
+  h3 {
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  
+  .folders li select {
+    margin-left: 10px; /* Adjust the margin value as needed */
+  }
+
+  .create-subfolder {
+    color: #27ae60;
+    cursor: pointer;
+  }
+  
+  button{
+    float: right;
+  }
+
+  .bottom-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    padding-top: 120px;
+  }
+  
+  .bottom-row {
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 5px;
+  }
+  
+  .add-billing {
+    background-color: #e74c3c;
+    color: #ecf0f1;
+    padding: 5px 1px;
+    border: none;
+    cursor: pointer;
+  }
+  
